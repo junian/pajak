@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <head>
     <title>Hitung Norma Pajak Online</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
 </head>
 <body>
     <h1>Cari Norma Pajak untuk Perhitungan Netto</h1>
+    <a href="https://github.com/junian/pajak" target="_blank"><i class="fab fa-github-square"></i>Edit on GitHub</a>
     <table id="example" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Extn.</th>
-                <th>Start date</th>
-                <th>Salary</th>
+                <th>No</th>
+                <th>KLU</th>
+                <th>Uraian KLU</th>
+                <th>10 Ibukota</th>
+                <th>Ibukota Lain</th>
+                <th>Daerah Lain</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Extn.</th>
-                <th>Start date</th>
-                <th>Salary</th>
+                <th>No</th>
+                <th>KLU</th>
+                <th>Uraian KLU</th>
+                <th>10 Ibukota</th>
+                <th>Ibukota Lain</th>
+                <th>Daerah Lain</th>
             </tr>
         </tfoot>
     </table>
@@ -32,7 +34,18 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#example').DataTable( {
-                "ajax": './data/data.json'
+                "ajax": {
+                    "url": "data/norma.json",
+                    "dataSrc": ""
+                },
+                "columns": [
+                    { "data": "no" },
+                    { "data": "klu" },
+                    { "data": "uraian" },
+                    { "data": "ibukota_10" },
+                    { "data": "ibukota_lain" },
+                    { "data": "daerah_lain" }
+                ]
             } );
         } );
     </script>
