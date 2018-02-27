@@ -14,20 +14,41 @@
             min-width: 200px;
             max-width: 980px;
             margin: 0 auto;
+        }
+        
+        .markdown-header {
+            padding: 15px;
+        }
+        
+        .markdown-content {
             padding: 45px;
         }
 
+        .datatables-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            margin: 0 auto;
+            padding: 15px 45px;
+        }
+        
         @media (max-width: 767px) {
-            .markdown-body {
+            .markdown-header {
                 padding: 15px;
+            }
+            .markdown-content {
+                padding: 15px;
+            }
+            .datatables-body {
+                padding: 10px;
             }
         }
     </style>
 </head>
 <body>
-    <article class="markdown-body">
+    <div class="markdown-body markdown-header">
         <h1>Cari Norma Pajak untuk Perhitungan Netto</h1>
-    </article>
+    </div>
+    <div class="datatables-body">
         <table id="example" class="display" cellspacing="0" width="100%">
             <thead>
                 <tr>
@@ -50,7 +71,8 @@
                 </tr>
             </tfoot>
         </table>
-    <article class="markdown-body">
+    </div>
+    <article class="markdown-body markdown-content">
         <h2>Keterangan</h2>
         <p>Norma dalam persen (%) dibagi 3 macam kategori</p>
         <ul>
