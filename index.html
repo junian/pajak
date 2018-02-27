@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <head>
     <title>Hitung Norma Pajak Online</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Cari Norma Pajak untuk Perhitungan Netto</h1>
-    <table id="example" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>KLU</th>
-                <th>Uraian KLU</th>
-                <th>10 Ibukota</th>
-                <th>Ibukota Lain</th>
-                <th>Daerah Lain</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th>No</th>
-                <th>KLU</th>
-                <th>Uraian KLU</th>
-                <th>10 Ibukota</th>
-                <th>Ibukota Lain</th>
-                <th>Daerah Lain</th>
-            </tr>
-        </tfoot>
-    </table>
-    <p><strong>Keterangan</strong></p>
-    <p>Norma dalam persen (%) dibagi 3 macam kategori</p>
-    <ul>
-        <li>10 (sepuluh) ibukota propinsi yaitu Medan, Palembang, Jakarta, Bandung, Semarang, Surabaya, Denpasar, Manado, Makassar, dan Pontianak</li>
-        <li>ibukota propinsi lainnya</li>
-        <li>daerah lainnya</li>
-    </ul>
-    <p>Jika menemukan bug, ada data yang salah/tidak lengkap, atau ingin mempercantik UI, silahkan kirim <a href="https://github.com/junian/pajak" target="_blank">Pull Request ke <i class="fab fa-github-square"></i> GitHub</a></p>
-    <p>Web ini dibuat berdasarkan panduan official <a href="http://www.pajak.go.id/content/norma-penghitungan" target="_blank">ditjen pajak</a></p>
-    <p>Data di-extract dari file <a href="http://www.pajak.go.id/sites/default/files/info-pajak/Lamp%201.pdf" target="_blank">pdf lampiran dirjen pajak no. 17/PJ/2015</a> dengan menggunakan <a href="http://tabula.technology" target="_blank">tabula</a> dan <a href="https://www.npmjs.com/package/csv2json" target="_blank">csv2json</a></p>
-    <p>Lisensi: <a href="https://github.com/junian/pajak/blob/master/LICENSE" target="_blank">Public Domain</a></p>
+    <article class="markdown-body">
+        <h1>Cari Norma Pajak untuk Perhitungan Netto</h1>
+        <table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>KLU</th>
+                    <th>Uraian KLU</th>
+                    <th>10 Ibukota</th>
+                    <th>Ibukota Lain</th>
+                    <th>Daerah Lain</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>No</th>
+                    <th>KLU</th>
+                    <th>Uraian KLU</th>
+                    <th>10 Ibukota</th>
+                    <th>Ibukota Lain</th>
+                    <th>Daerah Lain</th>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Keterangan</h2>
+        <p>Norma dalam persen (%) dibagi 3 macam kategori</p>
+        <ul>
+            <li>10 (sepuluh) ibukota propinsi yaitu Medan, Palembang, Jakarta, Bandung, Semarang, Surabaya, Denpasar, Manado, Makassar, dan Pontianak</li>
+            <li>ibukota propinsi lainnya</li>
+            <li>daerah lainnya</li>
+        </ul>
+        <p>Jika menemukan bug, ada data yang salah/tidak lengkap, atau ingin mempercantik UI, silahkan kirim <a href="https://github.com/junian/pajak" target="_blank">Pull Request ke <i class="fab fa-github-square"></i> GitHub</a></p>
+        <p>Web ini dibuat berdasarkan panduan official <a href="http://www.pajak.go.id/content/norma-penghitungan" target="_blank">ditjen pajak</a></p>
+        <p>Data di-extract dari file <a href="http://www.pajak.go.id/sites/default/files/info-pajak/Lamp%201.pdf" target="_blank">pdf lampiran dirjen pajak no. 17/PJ/2015</a> dengan menggunakan <a href="http://tabula.technology" target="_blank">tabula</a> dan <a href="https://www.npmjs.com/package/csv2json" target="_blank">csv2json</a></p>
+
+        <h2>Lisensi</h2>
+        <p>Aplikasi web ini berlisensi <a href="https://github.com/junian/pajak/blob/master/LICENSE" target="_blank">Public Domain</a></p>
+    </article>
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
