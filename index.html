@@ -3,7 +3,10 @@
     <title>Hitung Norma Pajak Online</title>
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/rowreorder/1.2.3/css/rowReorder.dataTables.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" rel="stylesheet">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .markdown-body {
@@ -24,6 +27,7 @@
 <body>
     <article class="markdown-body">
         <h1>Cari Norma Pajak untuk Perhitungan Netto</h1>
+    </article>
         <table id="example" class="display" cellspacing="0" width="100%">
             <thead>
                 <tr>
@@ -46,6 +50,7 @@
                 </tr>
             </tfoot>
         </table>
+    <article class="markdown-body">
         <h2>Keterangan</h2>
         <p>Norma dalam persen (%) dibagi 3 macam kategori</p>
         <ul>
@@ -63,6 +68,8 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/rowreorder/1.2.3/js/dataTables.rowReorder.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#example').DataTable( {
@@ -77,7 +84,11 @@
                     { "data": "ibukota_10" },
                     { "data": "ibukota_lain" },
                     { "data": "daerah_lain" }
-                ]
+                ],
+                rowReorder: {
+                    selector: 'td:nth-child(2)'
+                },
+                responsive: true
             } );
         } );
     </script>
