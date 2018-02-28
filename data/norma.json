@@ -98,6 +98,7 @@
 {"no":"97","klu":"02133","uraian":"PENGUSAHAAN DAUN KAYU PUTIH","ibukota_10":"16","ibukota_lain":"16","daerah_lain":"16"},
 {"no":"98","klu":"02134","uraian":"PENGUSAHAAN BAMBU","ibukota_10":"16","ibukota_lain":"16","daerah_lain":"16"},
 {"no":"99","klu":"02135","uraian":"PENGUSAHAAN DAMAR","ibukota_10":"16","ibukota_lain":"16","daerah_lain":"16"},
+{"no":"100","klu":"02136","uraian":"PENGUSAHAAN GAHARU","ibukota_10":"16","ibukota_lain":"16","daerah_lain":"16"},
 {"no":"101","klu":"02139","uraian":"PENGUSAHAAN HUTAN BUKAN KAYU LAINNYA","ibukota_10":"16","ibukota_lain":"16","daerah_lain":"16"},
 {"no":"102","klu":"02201","uraian":"PENEBANGAN KAYU","ibukota_10":"16","ibukota_lain":"16","daerah_lain":"16"},
 {"no":"103","klu":"02202","uraian":"USAHA PEMUNGUTAN KAYU","ibukota_10":"16","ibukota_lain":"16","daerah_lain":"16"},
@@ -221,6 +222,7 @@
 {"no":"221","klu":"10312","uraian":"INDUSTRI PELUMATAN BUAH-BUAHAN DAN SAYURAN","ibukota_10":"15","ibukota_lain":"14,5","daerah_lain":"14"},
 {"no":"222","klu":"10313","uraian":"INDUSTRI PENGERINGAN BUAH-BUAHAN DAN SAYURAN","ibukota_10":"15","ibukota_lain":"14,5","daerah_lain":"14"},
 {"no":"223","klu":"10314","uraian":"INDUSTRI PEMBEKUAN BUAH-BUAHAN DAN SAYURAN","ibukota_10":"15","ibukota_lain":"14,5","daerah_lain":"14"},
+{"no":"224","klu":"10320","uraian":"INDUSTRI PENGOLAHAN DAN PENGAWETAN BUAH-BUAHAN DAN SAYURAN DALAM KALENG","ibukota_10":"15","ibukota_lain":"14,5","daerah_lain":"14"},
 {"no":"225","klu":"10330","uraian":"INDUSTRI PENGOLAHAN SARI BUAH DAN SAYURAN","ibukota_10":"15","ibukota_lain":"14,5","daerah_lain":"14"},
 {"no":"226","klu":"10391","uraian":"INDUSTRI TEMPE KEDELAI","ibukota_10":"15","ibukota_lain":"12,5","daerah_lain":"10"},
 {"no":"227","klu":"10392","uraian":"INDUSTRI TAHU KEDELAI","ibukota_10":"15","ibukota_lain":"12,5","daerah_lain":"10"},
@@ -251,6 +253,7 @@
 {"no":"252","klu":"10617","uraian":"INDUSTRI TEPUNG TERIGU","ibukota_10":"12,5","ibukota_lain":"10","daerah_lain":"8,5"},
 {"no":"253","klu":"10618","uraian":"INDUSTRI BERBAGAI MACAM TEPUNG DARI PADI-PADIAN, BIJI-BIJIAN, KACANG-\rKACANGAN,","ibukota_10":"12,5","ibukota_lain":"10","daerah_lain":"8,5"},
 {"no":"254","klu":"10621","uraian":"INDUSTRI PATI UBI KAYU","ibukota_10":"17","ibukota_lain":"16,5","daerah_lain":"15"},
+{"no":"255","klu":"10622","uraian":"INDUSTRI BERBAGAI MACAM PATI PALMA","ibukota_10":"17","ibukota_lain":"16,5","daerah_lain":"15"},
 {"no":"256","klu":"10623","uraian":"INDUSTRI GLUKOSA DAN SEJENISNYA","ibukota_10":"17","ibukota_lain":"16,5","daerah_lain":"15"},
 {"no":"257","klu":"10629","uraian":"INDUSTRI PATI LAINNYA","ibukota_10":"17","ibukota_lain":"16,5","daerah_lain":"15"},
 {"no":"258","klu":"10631","uraian":"INDUSTRI PENGGILINGAN PADI DAN PENYOSOHAN BERAS","ibukota_10":"12,5","ibukota_lain":"10","daerah_lain":"8,5"},
@@ -1407,5 +1410,6 @@
 {"no":"1431","klu":"96999","uraian":"JASA PERORANGAN LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT\rLAIN","ibukota_10":"35","ibukota_lain":"35","daerah_lain":"35"},
 {"no":"1432","klu":"97000","uraian":"JASA PERORANGAN YANG MELAYANI RUMAH TANGGA","ibukota_10":"32","ibukota_lain":"31","daerah_lain":"29"},
 {"no":"1433","klu":"98100","uraian":"KEGIATAN YANG MENGHASILKAN BARANG OLEH RUMAH TANGGA YANG\rDIGUNAKAN SENDIRI UNTUK MEMENUHI KEBUTUHAN","ibukota_10":"32","ibukota_lain":"31","daerah_lain":"29"},
-{"no":"1434","klu":"98200","uraian":"KEGIATAN YANG MENGHASILKAN JASA OLEH RUMAH TANGGA YANG\rDIGUNAKAN SENDIRI UNTUK MEMENUHI KEBUTUHAN","ibukota_10":"32","ibukota_lain":"31","daerah_lain":"29"}
+{"no":"1434","klu":"98200","uraian":"KEGIATAN YANG MENGHASILKAN JASA OLEH RUMAH TANGGA YANG\rDIGUNAKAN SENDIRI UNTUK MEMENUHI KEBUTUHAN","ibukota_10":"32","ibukota_lain":"31","daerah_lain":"29"},
+{"no":"1435","klu":"99000","uraian":"KEGIATAN BADAN INTERNASIONAL DAN BADAN EKSTRA INTERNASIONAL LAINNYA","ibukota_10":"-","ibukota_lain":"-","daerah_lain":"-"}
 ]
