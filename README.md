@@ -25,7 +25,7 @@ $ sed '/^"",/ d' < norma-tabula.csv > norma.csv
 
 Then we add column names at the first row: **"no", "klu", "uraian", "ibukota_10", "ibukota_lain", "daerah_lain"**.
 
-After that, the csv file is transformed to json by using [csv2josn](https://www.npmjs.com/package/csv2json) by executing this command:
+After that, the csv file is transformed to json by using [csv2json](https://www.npmjs.com/package/csv2json) by executing this command:
 
 ```bash
 $ csv2json norma.csv norma.json
